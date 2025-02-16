@@ -46,12 +46,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/fpa-social-card.jpg',
     navbar: {
       title: 'Freestyle Players Association',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -61,7 +61,7 @@ const config: Config = {
           position: 'left',
         },
         {
-          href: 'https://events.freestyledisc.org/',
+          href: 'https://calendar.freestyledisc.org/',
           label: 'Event Calendar',
           position: 'right',
         },

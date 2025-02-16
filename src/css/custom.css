@@ -4,27 +4,32 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* Default (Light Mode) Gradient */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Rainbow gradient with #009FE3 at the center */
+  --ifm-color-primary-darkest:  #2DE300; /* HSL(108, 100%, 45%) */
+  --ifm-color-primary-darker:   #00E344; /* HSL(138, 100%, 45%) */
+  --ifm-color-primary-dark:     #00E3B5; /* HSL(168, 100%, 45%) */
+  --ifm-color-primary:          #009FE3; /* Center: HSL(198, 100%, ~45%) */
+  --ifm-color-primary-light:    #00B5E3; /* HSL(228, 100%, 45%) */
+  --ifm-color-primary-lighter:  #4400E3; /* HSL(258, 100%, 45%) */
+  --ifm-color-primary-lightest: #2D00E3; /* HSL(288, 100%, 45%) */
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode Gradient */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  /* Matching rainbow gradient with a teal center */
+  --ifm-color-primary-darkest:  #94C125; /* HSL(77, 68%, 45%) */
+  --ifm-color-primary-darker:   #46C025; /* HSL(107, 68%, 45%) */
+  --ifm-color-primary-dark:     #24C094; /* HSL(137, 68%, 45%) */
+  --ifm-color-primary:          #25C2A0; /* Center: ~HSL(167, 68%, 45%) */
+  --ifm-color-primary-light:    #2551C1; /* HSL(197, 68%, 45%) */
+  --ifm-color-primary-lighter:  #259FC1; /* HSL(227, 68%, 45%) */
+  --ifm-color-primary-lightest: #5125C1; /* HSL(257, 68%, 45%) */
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
